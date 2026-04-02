@@ -1,0 +1,135 @@
+# -----------------------------------------------------------------------------
+# ⚙️ Site Settings
+# -----------------------------------------------------------------------------
+
+title: Site Title
+email: Your email
+description: >-
+  short description of the site
+
+# Branding & Social
+twitter_username: 
+github_username:  
+
+# -----------------------------------------------------------------------------
+# 🛠️ Build Settings
+# -----------------------------------------------------------------------------
+
+baseurl: "" 
+url: "https://yourusername.github.io"
+
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+# Removed include: ["_pages"] to avoid collection conflicts
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-paginate
+
+# -----------------------------------------------------------------------------
+# 🎨 Theme Settings
+# -----------------------------------------------------------------------------
+
+minimal_mistakes_skin: "default"
+site_author: "Your Name"
+paginate: 5
+words_per_minute: 200
+
+# Masthead (Top Navigation) Settings
+logo: 
+masthead_title: "Site Title"
+
+# Defaults for Posts and Pages
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      header:
+        overlay_color: "#003595"
+        overlay_image:    
+      author_profile: true # Author profile (left sidebar) is visible
+      toc: true             # Table of Contents (right sidebar) is visible
+      toc_label: "Contents" # Optional: Custom title for the TOC
+      toc_icon: "book"      # Optional: FontAwesome icon
+      toc_sticky: true      # This makes it stick to the sidebar
+  
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      header:
+        overlay_color: "#003595"
+        overlay_image: 
+      author_profile: true # Author profile (left sidebar) is visible
+      toc: true             # Table of Contents (right sidebar) is visible
+      toc_label: "Contents" # Optional: Custom title for the TOC
+      toc_icon: "book"      # Optional: FontAwesome icon
+      toc_sticky: true      # This makes it stick to the sidebar
+ 
+  - scope:
+      path: ""
+      type: portfolio # Matches the collection name above
+    values:
+      layout: portfolio-item
+      header:
+        overlay_color: "#003595"
+        overlay_image:
+      author_profile: true # Author profile (left sidebar) is visible
+      sidebar: 
+        nav: "portfolio_sidebar"  # Custom Portfolio (left sidebar) is visible
+      toc: true # Table of Contents (right sidebar) is visible
+
+include:
+  - _pages
+      
+# -----------------------------------------------------------------------------
+# 📂 Collections Settings 
+# -----------------------------------------------------------------------------
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# -----------------------------------------------------------------------------
+# 👤 Author Settings
+# -----------------------------------------------------------------------------
+
+author:
+  name   : "Your Name"
+  avatar : "/assets/images/blank-profile-picture"
+  bio    : "short bio line"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"  
+    - label: "Itch.io"
+      icon: "fab fa-fw fa-itch-io"
+      url: "https://itch.io"
+    - label: "ArtStation"
+      icon: "fab fa-fw fa-artstation"
+      url: "https://www.artstation.com/"
+
+# -----------------------------------------------------------------------------
+# 🚫 Exclusions
+# -----------------------------------------------------------------------------
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .jekyll-cache
+  - .jekyll-metadata

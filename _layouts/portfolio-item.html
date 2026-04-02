@@ -1,0 +1,22 @@
+﻿---
+layout: default
+---
+
+<div id="main" role="main">
+    <div class="sidebar sticky">
+        {% include sidebar-portfolio.html %}
+    </div>
+
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+        <div class="page__inner-wrap">
+            <header>
+                <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title }}</h1>
+                <img src="{{ page.header.teaser | relative_url }}" alt="{{ page.title }}">
+            </header>
+
+            <section class="page__content" itemprop="text">
+                {{ content }}
+            </section>
+        </div>
+    </article>
+</div>

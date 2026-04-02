@@ -1,0 +1,151 @@
+---
+# THEME IMPORTS
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+/* ⏺️ Button  Styles                                                           */
+/* ----------------------------------------------------------------------------- */
+
+.btn--primary{
+  background-color: #003595;
+}
+.btn--primary:hover{
+  background-color: #d0b787;
+}
+
+.btn--primary:visited {
+  background-color: #0a2240;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* 🦶 Page Footer Styles                                                        */
+/* ----------------------------------------------------------------------------- */
+
+.page__footer{
+  background: #0a2240;
+  color: #fff;
+  margin-top: 1em;
+}
+.page__footer footer {
+  margin-top: 1em;
+}
+
+.page__footer-container {
+  display: flex;
+  justify-content: space-between; /* Pushes one left, one right */
+  align-items: center;           /* Vertically centers them */
+  flex-wrap: wrap;               /* Ensures it looks good on mobile */
+
+}
+
+.page__footer-left {
+  flex: 1;
+}
+
+.page__footer-right {
+  margin-left: 20px;
+}
+
+.footer-logo {
+  height: auto; /* Adjust size as needed */
+  width: auto;
+}
+
+/* Mobile fix: stack them if the screen is too small */
+@media (max-width: 600px) {
+  .page__footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .page__footer-right {
+    margin-left: 0;
+  }
+}
+
+/* ----------------------------------------------------------------------------- */
+/* 📘 Table of Contents Styles                                                   */
+/* ----------------------------------------------------------------------------- */
+
+.toc .nav__title {
+  background:#0a2240 ;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+/* 💼 Portfolio Styles                                                           */
+/* ----------------------------------------------------------------------------- */
+
+.portfolio-meta{
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.portfolio-meta h3{
+  margin: 0;
+  padding: 5px;
+  border-start-start-radius: 4px;
+  border-start-end-radius: 4px;
+  background: #d0b787;
+  color: #0a2240;
+}
+
+.portfolio-details{
+  padding: 5px;
+  border: solid 1px #f2f3f3;
+}
+
+.portfolio-details p{
+  margin: 0.5em auto 0.5em;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+/* 📝 Post Styles                                                                */
+/* ----------------------------------------------------------------------------- */
+
+
+/* Container for the whole post item */
+.post__item {
+  display: flex;
+  align-items: center; /* This handles the vertical centering */
+  clear: both;
+  margin-bottom: 2em;
+}
+
+/* The Thumbnail Container */
+.post__item-teaser {
+  flex: 0 0 150px;    /* Fixed width: 150px, won't grow or shrink */
+  margin-right: 20px;
+}
+
+.post__item-teaser img {
+  width: 100%;        /* Ensures image fills the 150px container */
+  display: block;
+  border-radius: 4px;
+}
+
+/* The Text Content (Title + Excerpt) */
+.post__item-body {
+  flex: 1;            /* Takes up the remaining horizontal space */
+}
+
+/* Clean up default margins so centering looks perfect */
+.post__item-title {
+  margin-top: 0 !important;
+  margin-bottom: 0.25em;
+}
+
+.post__item-excerpt {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

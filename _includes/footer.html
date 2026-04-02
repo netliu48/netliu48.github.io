@@ -1,0 +1,18 @@
+﻿<div class="page__footer-container">
+    <div class="page__footer-left">
+        <div class="page__footer-copyright">
+            &copy; {% assign site_time = site.time | date: '%Y' %}
+            {% if site.footer.since and site_time != site.footer.since %}{{ site.footer.since }} - {% endif %}{{ site_time }}
+            <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title | escape_once | strip }}</a>.
+            {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }}
+            <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
+            <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.
+        </div>
+    </div>
+
+    <div class="page__footer-right">
+        <a href="https://sites.utulsa.edu/csg/" target="_blank">
+            <img src="{{ '/assets/images/csgUTulsa.png' | relative_url }}" alt="Computer Simulation & Gaming @ University of Tulsa" class="footer-logo">
+        </a>
+    </div>
+</div>
