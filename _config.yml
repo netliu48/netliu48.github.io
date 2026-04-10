@@ -2,7 +2,7 @@
 # ⚙️ Site Settings
 # -----------------------------------------------------------------------------
 
-title: meow
+title: title test
 email: asqlau@gmail.com
 description: >-
   Game projects and other things I make
@@ -104,7 +104,7 @@ collections:
 author:
   name   : "Annette Lau"
   avatar : "/assets/images/loveofmylife.jpg"
-  bio    : "meow"
+  bio    : "University of Tulsa Undergraduate / Artist / Game Developer"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
