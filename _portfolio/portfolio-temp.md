@@ -1,6 +1,6 @@
 ---
-title: "Aegis"
-excerpt: "Unlikely Collaborators Game Jam submission"
+title: "Title of Project"
+excerpt: "Short summary of project"
 
 header:
   overlay_image: 
