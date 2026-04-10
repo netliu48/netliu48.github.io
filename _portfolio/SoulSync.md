@@ -15,7 +15,7 @@ project_date: "August 2025 - Current"
 ## Overview 
 Soulsync is a PvE multiplayer roguelike where you and three friends take the helm to traverse treacherous lands and face uncertain odds. Set in an advanced sci-fi fantasy world, the land is controlled and corrupted by the influence of Mordred.
 
-## Contributions
+## Quests
 - Storybuilding
 - 2D assets
 - Character texturing
