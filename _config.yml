@@ -2,21 +2,21 @@
 # ⚙️ Site Settings
 # -----------------------------------------------------------------------------
 
-title: Site Title
-email: Your email
+title: meow
+email: asqlau@gmail.com
 description: >-
-  short description of the site
+  Game projects and other things I make
 
 # Branding & Social
-twitter_username: 
-github_username:  
+twitter_username: netliu48
+github_username:  netliu48
 
 # -----------------------------------------------------------------------------
 # 🛠️ Build Settings
 # -----------------------------------------------------------------------------
 
 baseurl: "" 
-url: "https://yourusername.github.io"
+url: "https://netliu48.github.io"
 
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
