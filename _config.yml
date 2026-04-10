@@ -2,13 +2,13 @@
 # ⚙️ Site Settings
 # -----------------------------------------------------------------------------
 
-title: title test
+title: Annette Lau
 email: asqlau@gmail.com
 description: >-
   Game projects and other things I make
 
 # Branding & Social
-twitter_username: netliu48
+twitter_username: 
 github_username:  netliu48
 
 # -----------------------------------------------------------------------------
@@ -40,7 +40,7 @@ words_per_minute: 200
 
 # Masthead (Top Navigation) Settings
 logo: 
-masthead_title: "meow"
+masthead_title: "Homepage"
 
 # Defaults for Posts and Pages
 defaults:
@@ -77,7 +77,7 @@ defaults:
       type: portfolio # Matches the collection name above
     values:
       layout: portfolio-item
-      header:
+      header: 
         overlay_color: "#003595"
         overlay_image:
       author_profile: true # Author profile (left sidebar) is visible
@@ -104,7 +104,7 @@ collections:
 author:
   name   : "Annette Lau"
   avatar : "/assets/images/loveofmylife.jpg"
-  bio    : "University of Tulsa Undergraduate / Artist / Game Developer"
+  bio    : "2D/3D artist"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

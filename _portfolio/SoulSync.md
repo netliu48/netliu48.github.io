@@ -1,25 +1,25 @@
 ---
 title: "SoulSync"
-excerpt: "Soulsync is a PvE multiplayer roguelike where you and three friends take the helm to traverse treacherous lands and face uncertain odds. Set in an advanced sci-fi fantasy world, the land is controlled and corrupted by the influence of Mordred."
+excerpt: "Senior game production class project"
 
 header:
-  overlay_image: 
+  overlay_image: /assets/images/SoulSyncLogo.png
   teaser: /assets/images/soulsync logo.gif
   overlay_filter: 0.5
 
-project_brief: "Short sidebar summary of project requirements/needs."
-project_role: "Your role on the project"
-project_tools: "list tools, separate with commas"
-project_date: "Date the project was completed"
+project_brief: "Multiplayer Rogue-like game"
+project_role: "Narrative & Artist"
+project_tools: "Unity, Blender, Substance Painter, FireAlpaca"
+project_date: "August 2025 - Current"
 ---
 ## Overview 
-Written deliverables go here
+Soulsync is a PvE multiplayer roguelike where you and three friends take the helm to traverse treacherous lands and face uncertain odds. Set in an advanced sci-fi fantasy world, the land is controlled and corrupted by the influence of Mordred.
 
 ## Contributions
 - Storybuilding
 - 2D assets
 - Character texturing
-- 
+- 3D models
 
 ---
 

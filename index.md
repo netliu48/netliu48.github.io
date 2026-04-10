@@ -6,15 +6,15 @@ feature_row:
   - image_path: /assets/images/AegisLogo.png
     alt: "AEGIS"
     title: "Aegis"
-    excerpt: "Submission for Unlikely Collaborators Game Jam"
+    excerpt: ""
     url: "/portfolio/Aegis/"
     btn_label: "View"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/soulsync logo.gif
+  - image_path: /assets/images/SoulSyncLogo.png
     alt: "SOULSYNC"
     title: "SoulSync"
-    excerpt: "Senior game production class project"
+    excerpt: ""
     url: "/portfolio/SoulSync/"
     btn_label: "View"
     btn_class: "btn--primary"
