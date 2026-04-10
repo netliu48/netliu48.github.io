@@ -1,6 +1,6 @@
 ---
-title: "Title of Post"
-excerpt: "Short summary of  post"
+title: "tester post"
+excerpt: "summary test"
 date: 
 layout: single
 author_profile: true
