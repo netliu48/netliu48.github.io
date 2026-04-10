@@ -18,6 +18,7 @@ Turn-based card battler where you collect resources to build your deck. The goal
 ## Quests
 - Game concept
 - Sprite Artist
+
 ---
 
 ### Resources
