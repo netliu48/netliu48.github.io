@@ -3,8 +3,8 @@ title: "Aegis"
 excerpt: "Unlikely Collaborators Game Jam submission"
 
 header:
-  overlay_image: /assets/images/logoooooo.png
-  teaser: /assets/images/Background.png
+  overlay_image: /assets/images/AegisLogo.png
+  teaser: /assets/images/AegisBG.png
   overlay_filter: 0.5
 
 project_brief: "Aegis is an infinite FPS arena built on precision, momentum, and controlled aggression. Your shield isn’t just defense, it’s your weapon. Charge it, ricochet it off walls, and tear through enemies as each round grows faster, deadlier, and more relentless."
