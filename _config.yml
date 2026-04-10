@@ -102,22 +102,22 @@ collections:
 # -----------------------------------------------------------------------------
 
 author:
-  name   : "Your Name"
-  avatar : "/assets/images/blank-profile-picture"
-  bio    : "short bio line"
+  name   : "Annette Lau"
+  avatar : "/assets/images/loveofmylife.jpg"
+  bio    : "meow"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/"
+      url: "https://www.linkedin.com/in/annette-lau/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"  
+      url: "https://github.com/netliu48"  
     - label: "Itch.io"
       icon: "fab fa-fw fa-itch-io"
-      url: "https://itch.io"
+      url: "https://netliu.itch.io/"
     - label: "ArtStation"
       icon: "fab fa-fw fa-artstation"
-      url: "https://www.artstation.com/"
+      url: "https://www.artstation.com/net-exe"
 
 # -----------------------------------------------------------------------------
 # 🚫 Exclusions
