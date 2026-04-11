@@ -18,6 +18,14 @@ feature_row:
     url: "/portfolio/SoulSync/"
     btn_label: "View"
     btn_class: "btn--primary"
+
+  - image_path: /assets/images/SotMFcapture.png
+    alt: "SOTMF"
+    title: "Secrets of the Mystic Forest"
+    excerpt: ""
+    url: "/portfolio/SotMF/"
+    btn_label: "View"
+    btn_class: "btn--primary"
 ---
 
 

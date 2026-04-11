@@ -21,8 +21,6 @@ The overall idea of the gameplay is that you as the player are working to progre
 - Game art
 - UI design
 - Asset names
-My contribution to this project was the gameplay UI, logo, and thumbnail of the itch page. Everything I made was on the software FireAlpaca, which is a basic art program I am very familiar with and have used for years. All the dimensions and guidelines for the UI were written in our game design document that was pre-established.
-As for the gameplay, the models I found were just the tree models. The upgrade concepts were given to me to create names and descriptions. I tried to make the descriptions simple and easy to digest and the names of the upgrades related to the designated sections for each god. These can be found in the GDD document on our itch page.
 
 <p align="center">
   <img src="/assets/images/contribution.png" alt="">
