@@ -50,7 +50,7 @@ defaults:
     values:
       layout: single
       header:
-        overlay_color: "#003595"
+        overlay_color: "#222831"
         overlay_image:    
       author_profile: true # Author profile (left sidebar) is visible
       toc: true             # Table of Contents (right sidebar) is visible
@@ -64,7 +64,7 @@ defaults:
     values:
       layout: single
       header:
-        overlay_color: "#003595"
+        overlay_color: "#222831"
         overlay_image: 
       author_profile: true # Author profile (left sidebar) is visible
       toc: true             # Table of Contents (right sidebar) is visible
@@ -78,7 +78,7 @@ defaults:
     values:
       layout: portfolio-item
       header: 
-        overlay_color: "#003595"
+        overlay_color: "#222831"
         overlay_image:
       author_profile: true # Author profile (left sidebar) is visible
       sidebar: 
