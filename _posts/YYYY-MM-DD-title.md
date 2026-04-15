@@ -1,7 +1,7 @@
 ---
 title: "Title of Post"
 excerpt: "Short summary of  post"
-date: 
+date: # DD/MM//YYYY
 layout: single
 author_profile: true
 read_time: true
