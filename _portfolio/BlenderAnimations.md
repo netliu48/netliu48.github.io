@@ -4,7 +4,7 @@ excerpt: "A Collection of 3d Animations from Fall 2025"
 
 header:
   overlay_image: 
-  teaser: 
+  teaser: /assets/images/feature-img.png
   overlay_filter: 0.5
 
 project_brief: "Class Assignments"

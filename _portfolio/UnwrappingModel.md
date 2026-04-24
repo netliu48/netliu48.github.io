@@ -4,7 +4,7 @@ excerpt: "Tutorial on how to UV Unwrap"
 
 header:
   overlay_image: /assets/images/
-  teaser: /assets/images/
+  teaser: /assets/images/feature-img.png
   overlay_filter: 0.5
 
 project_brief: "Tutorial made for class"

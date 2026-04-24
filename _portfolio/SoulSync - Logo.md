@@ -4,7 +4,7 @@ excerpt: "Creating the Logo for our game"
 
 header:
   overlay_image: 
-  teaser: 
+  teaser: /assets/images/feature-img.png
   overlay_filter: 0.5
 
 project_brief: "Logo Design"

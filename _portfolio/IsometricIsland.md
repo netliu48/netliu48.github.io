@@ -3,8 +3,8 @@ title: "Scenery Project"
 excerpt: "3d Modeling Project"
 
 header:
-  overlay_image: /assets/images/
-  teaser: /assets/images/
+  overlay_image: 
+  teaser: /assets/images/feature-img.png
   overlay_filter: 0.5
 
 project_brief: "Scenery created in class"

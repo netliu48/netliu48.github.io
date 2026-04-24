@@ -3,8 +3,8 @@ title: "SoulSync - Character Textures"
 excerpt: "Texturing process on 3d character models"
 
 header:
-  overlay_image: 
-  teaser: 
+  overlay_image: /assets/images/feature-img.png
+  teaser: /assets/images/feature-img.png
   overlay_filter: 0.5
 
 project_brief: "Character Texturing"
