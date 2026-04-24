@@ -21,5 +21,5 @@ Turn-based card battler where you collect resources to build your deck. The goal
 
 ---
 
-### Resources
+### Links
 - [Itch.io](https://jakefrozen.itch.io/se)

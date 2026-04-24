@@ -28,5 +28,5 @@ The overall idea of the gameplay is that you as the player are working to progre
 
 ---
 
-### Resources
+### Links
 - [Itch.io page](https://jaydenyounger.itch.io/aegis)

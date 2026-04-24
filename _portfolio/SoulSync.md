@@ -23,5 +23,5 @@ Soulsync is a PvE multiplayer roguelike where you and three friends take the hel
 
 ---
 
-### Resources
+### Links
 - [Itch.io page](https://rjp5546.itch.io/soulsync)
